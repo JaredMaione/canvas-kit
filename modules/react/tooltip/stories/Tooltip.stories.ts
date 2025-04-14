@@ -14,6 +14,7 @@ import {Placements as PlacementsExample} from './examples/Placements';
 import {Ellipsis as EllipsisExample} from './examples/Ellipsis';
 import {LineClamp as LineClampExample} from './examples/LineClamp';
 import {UseTooltip as UseTooltipExample} from './examples/UseTooltip';
+import {ContextualHelp as ContextualHelpExample} from './examples/ContextualHelp';
 
 export default {
   title: 'Components/Popups/Tooltip',
@@ -57,4 +58,7 @@ export const LineClamp: Story = {
 };
 export const UseTooltip: Story = {
   render: UseTooltipExample,
+};
+export const ContextualHelp: Story = {
+  render: ContextualHelpExample,
 };

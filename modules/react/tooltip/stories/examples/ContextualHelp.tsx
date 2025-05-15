@@ -9,12 +9,10 @@ import {Flex} from '@workday/canvas-kit-react/layout';
 export const ContextualHelp = () => (
   <Flex>
     <FormField>
-      <FormField.Label>
-        Address
-        <Tooltip title="More info goes here">
-          <TertiaryButton icon={infoIcon} size="small" />
-        </Tooltip>
-      </FormField.Label>
+      <FormField.Label>Address</FormField.Label>
+      <Tooltip title="More info goes here" type="description">
+        <TertiaryButton icon={infoIcon} size="small" aria-label="Info" />
+      </Tooltip>
       <FormField.Field>
         <FormField.Input as={TextInput} />
       </FormField.Field>
